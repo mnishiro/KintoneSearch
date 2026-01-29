@@ -1,0 +1,30 @@
+{
+  "manifest_version": 1,
+  "version": "1.0.0",
+  "type": "APP",
+  "name": {
+    "ja": "部分一致検索プラグイン",
+    "en": "Partial Match Search Plugin"
+  },
+  "description": {
+    "ja": "一覧画面で部分一致検索を提供します。",
+    "en": "Provides partial match search on index view."
+  },
+  "desktop": {
+    "js": [
+      "desktop.js"
+    ],
+    "css": [
+      "desktop.css"
+    ]
+  },
+  "config": {
+    "html": "config.html",
+    "js": [
+      "config.js"
+    ],
+    "css": [
+      "config.css"
+    ]
+  }
+}

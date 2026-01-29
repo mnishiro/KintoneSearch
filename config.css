@@ -1,0 +1,30 @@
+body {
+  font-family: sans-serif;
+  margin: 24px;
+}
+
+.config-container {
+  max-width: 640px;
+}
+
+.field-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 16px 0;
+}
+
+.field-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.config-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.config-actions button {
+  padding: 6px 16px;
+}
