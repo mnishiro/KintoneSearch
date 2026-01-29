@@ -1,0 +1,45 @@
+.kintone-partial-search__container {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.kintone-partial-search__input {
+  min-width: 240px;
+  padding: 6px 8px;
+}
+
+.kintone-partial-search__button {
+  padding: 6px 12px;
+  background: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.kintone-partial-search__button--secondary {
+  background: #95a5a6;
+}
+
+.kintone-partial-search__results {
+  margin-top: 8px;
+}
+
+.kintone-partial-search__table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.kintone-partial-search__table th,
+.kintone-partial-search__table td {
+  border: 1px solid #dcdcdc;
+  padding: 6px 8px;
+}
+
+.kintone-partial-search__empty {
+  padding: 8px;
+  color: #666;
+}
